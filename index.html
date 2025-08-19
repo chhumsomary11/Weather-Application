@@ -1,0 +1,45 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Weather Forecast in Cambodia" />
+		<title>Weather Forecast System</title>
+		<link rel="stylesheet" href="style.css" />
+
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<div
+			class="wrapper container d-flex flex-column align-items-center gap-3 min-vh-100 bg-light"
+		>
+			<input
+				id="input-js"
+				class="form-control cityInput w-50"
+				type="text"
+				placeholder="Enter a city"
+			/>
+			<button id="btn-js" class="btn btn-primary">Enter</button>
+			<i id="weatherIcon-js"></i>
+			<h1 id="temp-js"></h1>
+			<h1 id="city-js"></h1>
+			<small id="currentTime-js" class="text-center"></small>
+			<p id="description-js" class="text-primary"></p>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
